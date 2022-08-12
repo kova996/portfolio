@@ -24,4 +24,5 @@ jobs:
         server: iamluka.tech
         username: u720558337
         password: ${{ secrets.password }}
+        local-dir: build/
         server-dir: domains/iamluka.tech/public_html/portfolio/
