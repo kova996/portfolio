@@ -3,7 +3,7 @@ import './App.css';
 import Test from './components/test';
 import { HelloLuka } from './components/test2';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
