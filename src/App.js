@@ -6,6 +6,7 @@ import { HelloLuka } from './components/test2';
 function App(props) {
   return (
     <div className="App">
+      <DummyNavigation></DummyNavigation>
       <header className="App-header">
         <HelloLuka></HelloLuka>
         <img src={logo} className="App-logo" alt="logo" />
