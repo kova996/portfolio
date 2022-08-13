@@ -1,6 +1,6 @@
 
 
-export function HelloLuka() {
+export function HelloLuka(props) {
     return (
         <div style="border: 1px solid black;">
             <h1>This is my first official page</h1>
