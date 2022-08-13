@@ -1,6 +1,6 @@
 
 
-function DummyNavigation(props) {
+export function DummyNavigation(props) {
     return (
         <nav>
             <ul>
