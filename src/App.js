@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Test from './components/test';
 import { HelloLuka } from './components/test2';
+import { DummyNavigation } from './components/global/navigation';
 
 function App(props) {
   return (
