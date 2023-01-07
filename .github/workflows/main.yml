@@ -28,4 +28,4 @@ jobs:
         username: u107291260.iamluka.com
         password: ${{ secrets.password }}
         local-dir: build/
-        server-dir: .
+        server-dir: ./
