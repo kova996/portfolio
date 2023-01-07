@@ -24,8 +24,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: iamluka.tech
-        username: u720558337
+        server: 145.14.156.41 
+        username: u107291260.iamluka.tech
         password: ${{ secrets.password }}
         local-dir: build/
         server-dir: domains/iamluka.tech/public_html/portfolio/
