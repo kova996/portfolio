@@ -25,7 +25,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: 145.14.156.41 
-        username: u107291260.iamluka.tech
+        username: u107291260
         password: ${{ secrets.password }}
         local-dir: build/
         server-dir: domains/iamluka.tech/public_html/portfolio/
