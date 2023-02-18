@@ -1,0 +1,26 @@
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.work-experience-title {
+    display: flex;
+}
+
+.work-experience-title .spacer {
+    content: "";
+    width: 30%;
+}
+
+.work-experience h1 {
+    font-size: 3em;
+}
+
+.work-experience-info {
+    display: flex;
+}
+
+.work-experience-info__text {
+    width: 70%;
+}

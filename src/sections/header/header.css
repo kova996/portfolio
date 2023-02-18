@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color:  rgb(179, 162, 255);
+  font-size: 28px;
+}
+
+.nav-elements ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-elements ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.contact-button {
+  padding: 5px 20px;
+  background-color: rgb(179, 162, 255);
+  color: white;
+  border-radius: 50px;
+}
+
+.is-invisible {
+  width: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.sticky {
+  position: sticky;
+  background-color:rgba(0, 3, 19, 0.7)
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-elements {
+    width: 0;
+    background-color: rgb(0, 3, 19);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    transition: 0.4s;
+    overflow-x: hidden;
+  }
+
+  .nav-elements ul {
+    flex-direction: column;
+  }
+
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-button {
+    border-radius: 0;
+  }
+
+  .nav-elements.is-visible {
+    display: block;
+    width: 80%;
+  }
+
+  .nav-elements.is-visible ul {
+    flex-direction: column;
+  }
+
+  .nav-elements ul li{
+    text-align: center;
+  }
+}

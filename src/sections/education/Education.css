@@ -1,0 +1,27 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.education-title {
+    display: flex;
+}
+
+.education-title .spacer {
+    content: "";
+    width: 30%;
+}
+
+.education h1 {
+    font-size: 3em;
+}
+
+.education-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.education-info__text {
+    width: 70%;
+}

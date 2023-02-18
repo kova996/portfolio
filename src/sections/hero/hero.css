@@ -1,0 +1,83 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  background: radial-gradient(
+    circle at top left,
+    rgb(5, 17, 86) 0%,
+    rgb(0, 5, 34) 50%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  text-align: left;
+  color: #fff;
+  width: 50%;
+}
+
+.hero-image {
+  color: white;
+  width: 40%;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.call-to-action {
+  background-color: rgb(132 128 210);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+  border-radius: 100px;
+}
+
+.curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 65px;
+  transform: rotateY(180deg);
+}
+
+.curve .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,45 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+  width: 36px;
+  height: 30px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 100%;
+  height: 4px;
+  margin: 4px 0;
+  transition: 0.4s;
+  background-color: rgb(179, 162, 255);
+}
+
+.bar1.change {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.bar2.change {
+  opacity: 0;
+}
+
+.bar3.change {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-main .hamburger {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-elements .hamburger {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
