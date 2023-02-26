@@ -1,0 +1,55 @@
+.projects {
+  width: 100%;
+  margin-top: 7%;
+}
+
+.projects-heading {
+  padding: 7%;
+  padding-bottom: 15%;
+  margin: 10px;
+  color: white;
+  background: radial-gradient(
+    circle at top left,
+    rgb(40, 65, 207) 0%,
+    rgb(96, 114, 216) 50%
+  );
+  border-radius: 10px;
+}
+
+.projects-title {
+  padding-bottom: 20px;
+  font-size: 3em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.projects-summary {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.projects-list {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: -10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    height: 200px;
+    width: 32%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

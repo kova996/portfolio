@@ -1,27 +1,38 @@
 .education {
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
 }
 
 .education-title {
-    display: flex;
-}
-
-.education-title .spacer {
-    content: "";
-    width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .education h1 {
-    font-size: 3em;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.education-summary {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 200;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
 .education-info {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .education-info__text {
-    width: 70%;
+  width: 70%;
 }

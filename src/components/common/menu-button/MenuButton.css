@@ -12,7 +12,11 @@
   height: 4px;
   margin: 4px 0;
   transition: 0.4s;
-  background-color: rgb(179, 162, 255);
+  background: radial-gradient(
+    circle at top left,
+    rgb(40, 65, 207) 0%,
+    rgb(96, 114, 216) 50%
+  );
 }
 
 .bar1.change {

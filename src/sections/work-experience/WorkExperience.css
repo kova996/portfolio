@@ -1,24 +1,34 @@
 .work-experience {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 5%;
 }
 
 .work-experience-title {
     display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.work-experience-title .spacer {
-    content: "";
-    width: 30%;
+.work-experience-summary {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2em;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 
 .work-experience h1 {
     font-size: 3em;
+    font-weight: 700;
 }
 
 .work-experience-info {
     display: flex;
+    justify-content: center;
 }
 
 .work-experience-info__text {

@@ -1,26 +1,25 @@
 import React from "react";
 
-import 'react-vertical-timeline-component/style.min.css';
+import "react-vertical-timeline-component/style.min.css";
 import Timeline from "../../components/timeline/Timeline";
 
-import './Education.css';
+import "./Education.css";
 
 const Education: React.FC = () => {
-    return (
-        <section className="education">
-            <div className="education-title">
-                <div className="spacer"></div>
-                <h1 className="">Education</h1>
-            </div>
-            <div className="education-info">
-                <div className="education-info__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo deserunt, quam neque dolorem unde nesciunt aliquam, quos qui voluptatum, quae similique natus placeat officia saepe eligendi quo perspiciatis quibusdam.</p>
-                    <p>A doloribus facilis sed, delectus quod neque aut expedita ullam ea cum autem debitis explicabo facere voluptatem assumenda vel nesciunt rem, itaque error aspernatur exercitationem quam accusantium deserunt. Totam, architecto.</p>
-                </div>
-                <Timeline elements={["nono","hehe","hihi","haha"]}/>
-            </div>
-        </section>
-    )
-}
+  return (
+    <section className="education">
+      <div className="education-title">
+        <h1 className="">Education</h1>
+      </div>
+      <p className="education-summary">
+        Not the whole source of current knowledge but definitely the big
+        influence on work etics and passion for growth.
+      </p>
+      <div className="education-info">
+        <Timeline elements={["nono", "hehe", "hihi", "haha"]} />
+      </div>
+    </section>
+  );
+};
 
 export default Education;

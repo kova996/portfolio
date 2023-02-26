@@ -32,10 +32,12 @@
 }
 
 .contact-button {
+  position: relative;
   padding: 5px 20px;
-  background-color: rgb(179, 162, 255);
   color: white;
+  border: 3px solid rgb(96, 114, 216);
   border-radius: 50px;
+  background-clip: padding-box; /* !importanté */
 }
 
 .is-invisible {

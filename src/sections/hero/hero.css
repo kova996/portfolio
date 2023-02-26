@@ -42,7 +42,11 @@
 }
 
 .call-to-action {
-  background-color: rgb(132 128 210);
+  background: radial-gradient(
+    circle at top left,
+    rgb(40, 65, 207) 0%,
+    rgb(96, 114, 216) 50%
+  );
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 30px;
