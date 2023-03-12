@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+}
+
+.contact-heading h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.contact-heading h1 span{
+    font-weight: 900;
+    background: radial-gradient(
+        circle at top left,
+        rgba(5, 17, 86, 0.8) 50%,
+        rgb(0, 5, 34) 100%
+      );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-main div  {
+    
+}
+
+.contact-content {
+    width: 50%;
+}
+
+.contact-form {
+    width: 50%;
+}

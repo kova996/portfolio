@@ -2,6 +2,7 @@ import Education from "../sections/education/Education";
 import WorkExperience from "../sections/work-experience/WorkExperience";
 import Hero from "../sections/hero/hero";
 import Projects from "../sections/projects/Projects";
+import Contact from "../sections/contact/Contact";
 
 export const Main = () => {
   return (
@@ -15,6 +16,7 @@ export const Main = () => {
             <Skills />
             <Certifications />
             */}
+      <Contact></Contact>
     </div>
   );
 };

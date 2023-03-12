@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       </div>
       <div className="projects-list">
         {projects.map((el, idx)=>{
-            return <div className="project-card">
+            return <div className="project-card" key={`project-${idx.toString()}`}>
                 {el}
             </div>
         })}
