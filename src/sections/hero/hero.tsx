@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           interests and positive attitude make me a great team player and an
           asset to any team I work with.
         </p>
-        <button className="btn call-to-action">Call to action</button>
+        <button className="btn call-to-action">Wanna get in touch?</button>
       </div>
       <div className="hero-image">
         <img

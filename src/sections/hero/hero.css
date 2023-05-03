@@ -7,8 +7,8 @@
 
   background: radial-gradient(
     circle at top left,
-    rgb(5, 17, 86) 0%,
-    rgb(0, 5, 34) 50%
+    rgb(var(--secondary)) -40%,
+    rgb(var(--primary)) 50%
   );
   display: flex;
   align-items: center;
@@ -17,12 +17,12 @@
 
 .hero-content {
   text-align: left;
-  color: #fff;
+  color: rgb(var(--white));
   width: 50%;
 }
 
 .hero-image {
-  color: white;
+  color: rgb(var(--white));
   width: 40%;
 }
 
@@ -44,9 +44,10 @@
 .call-to-action {
   background: radial-gradient(
     circle at top left,
-    rgb(40, 65, 207) 0%,
-    rgb(96, 114, 216) 50%
+    rgb(var(--white)) -20%,
+    rgb(var(--accent)) 50%
   );
+  color: rgb(var(--black));
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 30px;
@@ -73,7 +74,7 @@
 }
 
 .curve .shape-fill {
-  fill: #FFFFFF;
+  fill: rgb(var(--white));
 }
 
 /* Media Queries */

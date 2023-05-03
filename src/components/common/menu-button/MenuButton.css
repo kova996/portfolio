@@ -1,34 +1,45 @@
-.hamburger {
+.menu-button {
   display: none;
-  cursor: pointer;
-  width: 36px;
-  height: 30px;
 }
 
-.bar1,
-.bar2,
-.bar3 {
-  width: 100%;
-  height: 4px;
-  margin: 4px 0;
-  transition: 0.4s;
-  background: radial-gradient(
-    circle at top left,
-    rgb(40, 65, 207) 0%,
-    rgb(96, 114, 216) 50%
-  );
+.menu-button svg {
+  padding: 0;
+  margin: 0;
 }
 
-.bar1.change {
-  transform: rotate(-45deg) translate(-9px, 6px);
+.line {
+  fill: none;
+  stroke: rgb(var(--white));
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.bar2.change {
-  opacity: 0;
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
 }
-
-.bar3.change {
-  transform: rotate(45deg) translate(-8px, -8px);
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
 }
 
 @media screen and (max-width: 1024px) {
@@ -45,5 +56,16 @@
   .nav-elements .hamburger {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sidenav-links.opened {
+    left: 0;
+    opacity: 1;
+    transition: all ease 500ms;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
   }
 }
