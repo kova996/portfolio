@@ -12,13 +12,13 @@ export const Header: React.FC<Props> = () => {
   useEffect(() => {
     document.onscroll = (event: any) => {
       setTopDistance(document.documentElement.scrollTop);
-    }
-  },[])
+    };
+  }, []);
 
   return (
     <nav className={`navbar`}>
       <div className={`nav-main`}>
-        <div className={`logo`}>Brand placeholder</div>
+        <div className={`logo`}>IAmLuka</div>
         <MenuButton
           isOpened={mobileMenuOpen}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

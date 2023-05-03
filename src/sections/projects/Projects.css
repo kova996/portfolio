@@ -8,11 +8,11 @@
   padding: 7%;
   padding-bottom: 15%;
   margin: 10px;
-  color: white;
+  color: rgb(var(--white));
   background: radial-gradient(
     circle at top left,
-    rgb(40, 65, 207) 0%,
-    rgb(96, 114, 216) 50%
+    rgb(var(--secondary)) -20%,
+    rgb(var(--primary)) 50%
   );
   border-radius: 10px;
 }
@@ -34,24 +34,24 @@
 }
 
 .projects-list {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    margin-top: -10%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: -10%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.project-card{
-    height: 300px;
-    width: 32%;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 3px gray;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+.project-card {
+  height: 300px;
+  width: 32%;
+  border-radius: 10px;
+  background-color: rgb(var(--white));
+  box-shadow: 0 0 3px gray;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
 }

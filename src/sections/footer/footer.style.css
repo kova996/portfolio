@@ -1,0 +1,12 @@
+footer {
+  height: 10px;
+  width: 100%;
+  margin-top: 32px;
+  background: radial-gradient(
+    circle at top left,
+    rgb(var(--primary)) 50%,
+    rgb(var(--secondary)) 120%
+  );
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
