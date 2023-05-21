@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 30%;
+  width: 800px;
   align-content: center;
 }
 
@@ -75,4 +75,7 @@
 .timeline-item:nth-child(even) .circle {
   left: -8px;
   z-index: 1;
+}
+
+@media (max-width: 1024px) {
 }
