@@ -115,6 +115,7 @@
 }
 
 .contact-link a {
+  display: flex;
   padding: 16px;
   background-color: rgb(var(--accent));
   border-radius: 100%;
@@ -134,4 +135,13 @@
 
 .submit-button {
   text-align: right;
+}
+
+@media (max-width: 768px) {
+  .contact-separator {
+    display: none;
+  }
+  .contact-main {
+    flex-direction: column;
+  }
 }

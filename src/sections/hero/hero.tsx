@@ -1,4 +1,5 @@
 import React from "react";
+import Screen from "../../components/glb-model/GlbModel";
 
 import "./hero.css";
 
@@ -10,22 +11,22 @@ const Hero: React.FC = () => {
           A Passion for Technology, Learning and Teamwork
         </h1>
         <p className="subtitle">
-          I am a software engineer with a passion for technology, a strong work
+          {/*I am a software engineer with a passion for technology, a strong work
           ethic and a desire to continuously learn and grow. My ability to stay
           current with the latest advancements in my field has enabled me to
           excel in a variety of projects. Outside of work, I am a well-rounded
           individual who enjoys reading, listening to music, participating in
           sports, appreciating nature, and meeting new people. My diverse
           interests and positive attitude make me a great team player and an
-          asset to any team I work with.
+          asset to any team I work with.*/}
+          Passionate software engineer with a strong work ethic, committed to
+          continuous learning and staying current in the field. A well-rounded,
+          team player excelling in diverse projects and interests.
         </p>
         <button className="btn call-to-action">Wanna get in touch?</button>
       </div>
       <div className="hero-image">
-        <img
-          src="https://dummyimage.com/600x400/000/fff.png&text=placeholder"
-          alt="placeholder"
-        />
+        <Screen modelPath={"/model.glb"} />
       </div>
       <div className="curve">
         <svg
