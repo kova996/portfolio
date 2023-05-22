@@ -34,6 +34,7 @@
 .timeline-item-content {
   box-shadow: 0 0 4px gray;
   border-radius: 5px;
+  padding: 16px;
 }
 
 .timeline-item-content::after {
@@ -75,6 +76,18 @@
 .timeline-item:nth-child(even) .circle {
   left: -8px;
   z-index: 1;
+}
+
+.timeline-item-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.timeline-item-time {
+  color: color-mix(in lch, rgb(var(--primary)), rgb(var(--secondary)));
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
 }
 
 @media (max-width: 1024px) {
