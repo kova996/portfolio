@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 50%;
+  width: 800px;
   align-content: center;
 }
 
@@ -80,4 +80,7 @@
 .timeline-item-title {
   font-size: 24px;
   font-weight: 700;
+}
+
+@media (max-width: 1024px) {
 }
